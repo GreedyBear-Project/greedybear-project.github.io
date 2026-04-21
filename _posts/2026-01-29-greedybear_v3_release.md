@@ -13,6 +13,9 @@ Over the last months some new contributors helped us to implement a lot of new s
 - Log4Pot-specific data handling was removed, because the honeypot is not that relevant anymore.
 - The possibility to use legacy extraction with an 11 minute time window has been removed. The LEGACY_EXTRACTION switch in the env_file will be ignored. 
 
+
+
+
 ## Highlights
 - We are using the Elasticsearch client version 9 now to match T-Pots recent migration to ES9.
 - GreedyBear now dynamically supports all honeypots that are actively collecting data in the attached T-Pot instance. 

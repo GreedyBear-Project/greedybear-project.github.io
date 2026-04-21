@@ -8,6 +8,9 @@ layout: post
 
 Over the past few months I wrote my Master's thesis about improving threat intelligence generated from honeypot data. For this purpose I made some changes to the [GreedyBear](https://github.com/intelowlproject/GreedyBear/) project from Matteo Lodi, who greatly supported my coding work. 
 
+
+
+
 ### New feeds
 The core of my work is the development and comparison of scoring models which try to predict future honeypot interactions. As a result of this comparison, two of these models were integrated into GreedyBear and already do their work on the [Honeynet instance](https://greedybear.honeynet.org/):
 
