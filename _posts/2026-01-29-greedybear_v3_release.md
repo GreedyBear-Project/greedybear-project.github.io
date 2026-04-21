@@ -3,6 +3,7 @@ title: GreedyBear version 3 coming
 date: 2026-01-29
 cover: /images/greedybear.png
 author: Tim Leonhard
+layout: post
 ---
 
 Over the last months some new contributors helped us to implement a lot of new stuff in GreedyBear. Because of the huge number of new features and a different structure of the Feeds API responses, we are releasing a new major version in the next week.
