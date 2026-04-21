@@ -1,6 +1,6 @@
 title: "GreedyBear Blog"
 author: "Tim Leonhard"
-description: "My blog"
+description: "Official Blog of the GreedyBear Project"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -10,7 +10,7 @@ date_format: "%B %d, %Y"
 
 show_excerpts: true             # show article excerpts instead of archive list on the home page
 show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
+show_sidebar: true             # show a sidebar instead of the usual header
 show_minimal: false             # remove all clutter
 
 #show_frame: "/assets/images/background.svg"
@@ -18,13 +18,18 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
+  # - {file: "archive.html", sidebaricon: home}
+  # - {file: "README.md", sidebaricon: address-card}
+  - {title: Home, sidebaricon: home, url: "/"}
+  - {title: GitHub, sidebaricon: github, url: "https://github.com/GreedyBear-Project/GreedyBear"}
+  - {title: Docs, sidebaricon: book-open, url: "https://github.com/GreedyBear-Project/GreedyBear/wiki"}
+  - {title: Subscribe, sidebaricon: rss, url: "/feed.xml"}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   # - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/GreedyBear-Project/GreedyBear"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  # - {title: Github, icon: github, url: "https://github.com/GreedyBear-Project/GreedyBear"}
+  # - {title: Docs, icon: book-open, url: "https://github.com/GreedyBear-Project/GreedyBear/wiki"}
+  # - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
