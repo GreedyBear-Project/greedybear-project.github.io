@@ -1,5 +1,5 @@
 ---
-title: Google Summer of Code 2026 & New Features
+title: Google Summer of Code 2026 and New Features
 date: 2026-05-20
 cover: /images/greedybear.png
 author: Tim Leonhard
