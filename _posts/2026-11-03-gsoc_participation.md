@@ -7,6 +7,7 @@ layout: post
 
 Matteo and I had the opportunity to attend the Google Summer of Code Mentor Summit in Munich. It was a pleasure meeting each other in person and talking to other mentors and maintainers. Most of them have the same issue as we do at the moment: how to handle LLM-heavy contributions to our projects.
 
+
 GSoC 2026 was my first time participating. When we announced our participation in December 2025, I was really surprised by how quickly young people spotted our project and started contributing code to get a foot in the door and make a good impression, hoping we would accept their upcoming proposals.
 
 This year is even crazier to me: we have not announced our participation yet (and to be honest, we don't really know if we will participate at all), but still, half a year before the expected proposal deadline, there are around 20 people who regularly open issues and work on PRs. I really appreciate all the work they have done and how they move the project forward, but I am also aware that most of their work is probably highly automated. Whether it's code or text, the probability that an LLM wrote it is extremely high.
